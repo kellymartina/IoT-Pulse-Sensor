@@ -32,11 +32,10 @@
 - Certifique-se de monitorar a saída serial (menu "Ferramentas" -> "Monitor Serial") para acompanhar o status da conexão WiFi, MQTT e a leitura dos batimentos cardíacos.
 
 
-
 ## Documentação
 - [Descrição do Hardware](docs/hardwaredescription.md)
-- [Software e Documentação do Código]()
-- [Documentação das Interfaces, Protocolos e Módulos de Comunicação](docs/communication.md)
+- [Código](batimentos_iot.ino)
+- [Interfaces, Protocolos e Módulos de Comunicação](docs/communication.md)
 
 ## Estrutura do Código
 - setup(): Configura os pinos e estabelece conexão WiFi e MQTT.
@@ -51,5 +50,7 @@
 - O buzzer é ativado quando os BPM estão entre 60 e 100, emitindo um som a cada segundo.
 
 ## Protocolo MQTT
-- [HiveMQ](https://www.hivemq.com/demos/websocket-client/)
+- O MQTT é um protocolo de mensagens leve e de baixa largura de banda, ideal para dispositivos conectados à Internet das Coisas (IoT). Ele opera sobre o protocolo TCP/IP e utiliza o conceito de publicação e subscrição para troca de mensagens entre dispositivos.
+- No contexto deste projeto, o protocolo MQTT é utilizado para enviar os dados de frequência cardíaca do dispositivo para um servidor MQTT hospedado no [HiveMQ](https://www.hivemq.com/demos/websocket-client/), permitindo sua visualização e processamento remotos.
+
 - Os dados de BPM são publicados no tópico 'sensor/bpm'.
