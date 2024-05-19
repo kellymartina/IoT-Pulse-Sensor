@@ -1,7 +1,7 @@
 // ----- WIFI
 #include <ESP8266WiFi.h>
-const char *ssid = "Sebatian";
-const char *password = "mv102292";
+const char *ssid = "Nome_da_rede";
+const char *password = "Senha_da_rede";
 WiFiClient espClient;
 
 // ----- MQTT
