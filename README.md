@@ -7,7 +7,7 @@
 
 
 ## Documentação
--[Como reproduzir](docs/reproduce.md)
+- [Como reproduzir](docs/reproduce.md)
 - [Descrição do Hardware](docs/hardwaredescription.md)
 - [Código](batimentos_iot.ino)
 - [Interfaces, Protocolos e Módulos de Comunicação](docs/communication.md)
