@@ -2,13 +2,6 @@
 - Sensor de batimentos cardiacos programado na IDE do Arduino.
 - Projeto desenvolvido para a matéria de Objetos Inteligentes Conectados (IoT), Quinto Semestre do curso Análise e Desenvolvimento de Sistemas.
 
-- ## Componentes
-- Módulo Wi-Fi ESP8266 NodeMcu
-- Pulse sensor
-- Cabos Jumper Macho/Fêmea
-- Protoboard
-- Buzzer
-
 ## Como usar
 - Instale a IDE do Arduino
 - Adicione a placa NodeMcu nas preferências da IDE.
@@ -28,6 +21,12 @@
 - loop(): Lê os dados do sensor de pulso, calcula os BPM, publica os dados via MQTT e controla o buzzer.
 - publicarBatimentosNoTopico(): Publica os dados de BPM no tópico MQTT.
 - reconnectMQTT(): Reestabelece a conexão MQTT em caso de desconexão.
+
+## Lógica do Sensor
+- O sensor de pulso está conectado ao pino A0. O valor do sinal é lido e comparado com um limiar (Threshold) para detectar batimentos. O tempo entre os batimentos é usado para calcular os BPM.
+
+## Controle do Buzzer
+- O buzzer é ativado quando os BPM estão entre 60 e 100, emitindo um som a cada segundo.
 
 ## Protocolo MQTT
 - [HiveMQ](https://www.hivemq.com/demos/websocket-client/)
