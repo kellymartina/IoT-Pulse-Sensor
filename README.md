@@ -27,4 +27,4 @@
 ## Protocolo MQTT
 - O MQTT é um protocolo de mensagens leve e de baixa largura de banda, ideal para dispositivos conectados à Internet das Coisas (IoT). Ele opera sobre o protocolo TCP/IP e utiliza o conceito de publicação e subscrição para troca de mensagens entre dispositivos.
 - No contexto deste projeto, o protocolo MQTT é utilizado para enviar os dados de frequência cardíaca do dispositivo para um servidor MQTT hospedado no [HiveMQ](https://www.hivemq.com/demos/websocket-client/), permitindo sua visualização e processamento remotos.
-- Os dados de BPM são publicados no tópico 'sensor/bpm'.
+- [Conectar pelo HiveMQ](docs/hivemq.md)
