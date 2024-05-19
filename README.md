@@ -21,7 +21,7 @@
 ## Documentação
 - [Descrição do Hardware](docs/hardwaredescription.md)
 - [Software e Documentação do Código]()
-- [Documentação das Interfaces, Protocolos e Módulos de Comunicação]()
+- [Documentação das Interfaces, Protocolos e Módulos de Comunicação](docs/communication.md)
 
 ## Estrutura do Código
 - setup(): Configura os pinos e estabelece conexão WiFi e MQTT.
