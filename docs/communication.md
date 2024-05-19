@@ -13,8 +13,3 @@
 ## Bibliotecas Utilizadas
 - **ESP8266WiFi**: Biblioteca para conectar o ESP8266 à rede WiFi.
 - **PubSubClient**: Biblioteca para comunicação MQTT.
-
-## Conectar pelo HiveMQ
-- HiveMQ é uma plataforma líder em MQTT (Message Queuing Telemetry Transport), projetada para implementar, gerenciar e dimensionar infraestruturas de mensagens MQTT em larga escala.
-1. Inserir os dados
-![passo1](img/hivemq1) 
