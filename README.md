@@ -19,7 +19,7 @@
 - Compile e faça o upload do código para ESP8266
 
 ## Documentação
-- [Descrição do Hardware]()
+- [Descrição do Hardware](docs/hardwaredescription.md)
 - [Software e Documentação do Código]()
 - [Documentação das Interfaces, Protocolos e Módulos de Comunicação]()
 
