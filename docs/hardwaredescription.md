@@ -13,7 +13,7 @@
 - **BuzzerPin (D1)**: Conectado ao buzzer.
 
 ## Outras Peças
-- **Placa de Protótipo**: Para conectar todos os componentes.
+- **Protoboardo**: Para conectar todos os componentes.
 - **Cabos Jumper**: Para fazer as conexões entre os componentes.
 
 
