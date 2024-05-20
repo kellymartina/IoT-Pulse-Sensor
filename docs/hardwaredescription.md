@@ -19,3 +19,6 @@
 
 ## Modelo de Montagem
 ![Circuito](/Pulse-sensor.png) 
+
+## Fluxograma
+![Fluxograma](/img/diagram.jpg)
