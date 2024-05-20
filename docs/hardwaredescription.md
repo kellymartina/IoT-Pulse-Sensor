@@ -18,7 +18,10 @@
 
 
 ## Modelo de Montagem
-![Circuito](/Pulse-sensor.png) 
+- Feito na plataforma Fritzing
+<img src="/Pulse-sensor.png" alt="Modelo de Montagem">
 
 ## Fluxograma
-![Fluxograma](/img/diagram.jpg)
+- Feito na plataforma Miro <br>
+<img src="/img/diagram.jpg" alt="Fluxograma" width="60%">
+
